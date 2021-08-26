@@ -1,0 +1,104 @@
+.btn-container {
+  margin-top: 15px;
+  margin-bottom: 120px;
+  padding: 10px;
+  width: 300px;
+  height: 123px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 10px;
+}
+
+.btn-container button {
+  display: block;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 14px;
+  width: 174px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #00285F;
+  color:rgb(192, 192, 192);
+}
+
+.btn-text-container {
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: 40px;
+  font-size: 18px;
+  width: 199px;
+  height: 21px;
+}
+
+@media (min-width: 576px) {
+  .btn-container {
+    display: flex;
+    width: 536px;
+    height: 100px;
+  }
+
+  .btn-container button {
+    margin-left: 30px;
+  }
+
+  .btn-text-container {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-container {
+    padding: 20px;
+    height: 123px;
+    width: 728px;
+  }
+
+  .btn-text-container {
+    height: 21px;
+    width: 199px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-container {
+    width: 952px;
+    height: 123px;
+  }
+
+  .btn-container button {
+    margin-top: 20px;
+  }
+
+  .btn-text-container {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-container {
+    margin-left: 100px;
+    width: 980px;
+    height: 100px;
+  }
+
+  .btn-container button {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .btn-text-container {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .btn-container {
+    margin-left: 100px;
+    width: 1200px;
+    height: 100px;
+  }
+
+ 
+}
+
+
