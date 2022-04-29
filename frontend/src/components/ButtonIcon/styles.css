@@ -17,8 +17,8 @@
   width: 174px;
   height: 40px;
   border-radius: 5px;
-  background-color: #00285F;
-  color:rgb(192, 192, 192);
+  background-color: #00285f;
+  color: rgb(192, 192, 192);
 }
 
 .btn-text-container {
@@ -93,12 +93,7 @@
 
 @media (min-width: 1400px) {
   .btn-container {
-    margin-left: 100px;
-    width: 1200px;
-    height: 100px;
+    margin: 0 auto;
+    width: 100%;
   }
-
- 
 }
-
-
